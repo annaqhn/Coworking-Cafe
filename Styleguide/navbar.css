@@ -9,7 +9,7 @@ body{
 }
 
 
-
+/*start navigation*/
 nav{
   background-color: transparent;
   border-bottom: 3px solid #FFFFFF;
@@ -70,3 +70,4 @@ nav img{
   background-color: #8783F3;
 }
   /*end of primary button*/
+  /*end of navigation*/

@@ -91,7 +91,13 @@ p {
   width: auto;
 }
 
-.footer-links a{
+.footer-col3 a{
+  color: #232929;
+  text-decoration: none;
+}
+
+.footer-col3 a:hover{
+  color: #6E6AE3;
   text-decoration: none;
 }
 
@@ -124,6 +130,4 @@ p {
 .bottom-text img{
   margin: 0px 5px 0px 5px;
 }
-
-
 /*end of footer*/
