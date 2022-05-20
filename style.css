@@ -4,9 +4,38 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+h1{
+  font-family: 'Heebo', sans-serif;
+  font-size: 68px;
+  font-weight: 700;
+}
+
+h2{
+  font-family: 'Heebo', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h3{
+  font-family: 'Heebo', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h4{
+  font-family: 'Heebo', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
 
 /*start global code*/
-
 /*start navigation*/
 nav{
   background-color: transparent;
@@ -71,6 +100,9 @@ nav img{
   /*end of navigation*/
 /*end of gobal code*/
 
+
+/*------------------------------------------*/
+
 /*start of index page*/
 /*start of hero section*/
 .hero-image img{
@@ -113,19 +145,6 @@ footer{
   bottom: 0;
   height: auto;
   width: 100%;
-}
-
-h4{
-  font-family: 'Heebo', sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-p {
-  font-family: 'Heebo', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: none;
 }
 
 .yellow{
