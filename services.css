@@ -1,0 +1,149 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  /*start of text*/
+
+  h3{
+    color: #1D1D1D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  h5 {
+    color: #1D1D1D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 24px; 
+  }
+
+  .header-subtext
+  {
+    color: #FFFFFF;
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .header-title-text{
+    color: #FFFFFF;
+    font-family: 'Heebo', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+  }
+/*end of text*/
+
+/*start of navbar*/
+.subheader-nav{
+  background-color: transparent;
+  /* border-bottom: 1px solid #d3d3d3; */
+  height: auto;
+  text-align: right;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  position: absolute;
+}
+
+nav img{
+  float: left;
+  height: 60px;
+  margin-left: 140px;
+}
+
+.nav-links{
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #6E6AE3;
+}
+/*end of navbar*/
+
+ /*start of primary button*/
+ .primary{
+  align-items: flex-end;
+  background-color: #6E6AE3;
+  border: none;
+  border-radius: 25px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  margin: 0px 140px 0px 50px;
+  padding: 14px 40px 14px 40px;
+  transition: 0.4s;
+  width: 160px;
+}
+
+.primary:hover{
+  background-color: #8783F3;
+}
+  /*end of primary button*/
+
+/*start of subheader*/
+
+.text-header-container {
+    left: 50%;
+    padding-bottom: 280px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-bar {
+    background-color: #ffffff;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+}
+.header-container {
+  max-height: 300px;
+}
+
+/*end of subheader*/
+
+/*start of body*/
+.text-container {
+text-align: center;
+}
+
+.services-container {
+  background-color: #8783F3;
+  border-radius: 25px;
+  height: 310px;
+  margin-top: 70px;
+  width: 240px;
+
+}
+
+
+/*end of body*/
