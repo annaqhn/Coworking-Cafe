@@ -5,12 +5,19 @@
 }
 
 
-  /*start of text*/
+  /*start of standard text*/
 
   h3{
     color: #1D1D1D;
     font-family: 'Heebo', sans-serif;
     font-size: 32px;
+    font-weight: 500;
+  }
+
+  h4{
+    color: #232929;
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
     font-weight: 500;
   }
 
@@ -22,20 +29,46 @@
     padding-top: 24px; 
   }
 
+  p{
+    color: #232929;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /*end of standard text*/
+
+  /*start of styled text*/
+
   .header-subtext
   {
     color: #FFFFFF;
     font-family: 'Heebo', sans-serif;
     font-size: 22px;
     font-weight: 400;
+    padding-top: 0;
+    text-shadow: 0px 3px 4px #2b2b2b;
   }
   .header-title-text{
     color: #FFFFFF;
     font-family: 'Heebo', sans-serif;
     font-size: 48px;
     font-weight: 700;
+    text-shadow: 0px 3px 8px #2b2b2b;
   }
-/*end of text*/
+
+  .services-text-title{
+    color: #232929;
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 25px;
+  }
+/*end of styled text*/
+
+/*start of styled buttons*/
+
+/*end of styled buttons*/
 
 /*start of navbar*/
 .subheader-nav{
@@ -47,6 +80,7 @@
   padding: 20px 0px 20px 0px;
   position: absolute;
 }
+
 
 nav img{
   float: left;
@@ -131,19 +165,175 @@ nav img{
 
 /*end of subheader*/
 
-/*start of body*/
-.text-container {
-text-align: center;
+/*start of services cards*/
+
+.button-container {
+ text-align: center;
+ padding-bottom: 80px;
+ padding-left: 95px;
 }
 
-.services-container {
-  background-color: #8783F3;
+.servicebox {
+  align-items: center;
+  background-color: #FFFFFF;
   border-radius: 25px;
-  height: 310px;
+  box-shadow: 0px 3px 6px #D6D6D6;
+  display: flex;
+  flex-direction: column;
+  height: 330px;
   margin-top: 70px;
+  padding: 20px;
   width: 240px;
 
 }
+.services-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+/*start of service icons styling*/
+.services-icon-a {
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
 
-/*end of body*/
+.services-icon-b {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.services-icon-c {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.services-icon-d {
+  margin-bottom: 21px;
+  margin-top: 20px;
+}
+
+.services-icon-e {
+  margin-bottom: 21px;
+  margin-top: 20px;
+}
+/*end of service icons styling*/
+
+.text-container {
+  text-align: center;
+  }
+
+/*end of services cards*/
+
+/*start of footer*/
+.gradient-line{
+  background: linear-gradient(150deg, #F5A351 0%, #E48585 35%, #6E6AE3 100%);
+  height: 10px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+footer{
+  background-color: #EFEFEF;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+}
+
+.yellow{
+  background-color: #F5A351;
+  border-color: #F5A351;
+  border-style: solid;
+  height: 3px;
+  width: 40px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-alignleft{
+  display: flex;
+}
+
+/*first column*/
+.footer-col1{
+  padding-left: 140px;
+  width: 20%;
+}
+
+/*secound column*/
+.footer-col2{
+  width: 20%;
+}
+
+.footer-links{
+  list-style: none;
+}
+
+.footer-links li a{
+  color: #232929;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-links li a:hover{
+  color: #6E6AE3;
+  transition: 0.3s;
+}
+
+/*third column*/
+.footer-col3{
+  margin-left: 150px;
+  width: auto;
+}
+
+.footer-col3 a{
+  color: #232929;
+  text-decoration: none;
+}
+
+.footer-col3 a:hover{
+  color: #6E6AE3;
+  text-decoration: none;
+}
+
+/*fourth column*/
+.footer-col4{
+  float: right;
+  width: 30%;
+}
+
+.footer-col4 .coworking-plus-logo{
+  float: right;
+  padding-right: 140px;
+  margin-right: auto;
+}
+
+/*bottom row*/
+.baseline{
+  align-items: center;
+  background-color: #BFBFBF;
+  border-color: #BFBFBF;
+  border-style: solid;
+  margin: 60px auto 20px auto;
+  width: 95%;
+}
+
+.bottom-text{
+  margin: 0px 140px 20px 140px;
+}
+
+.bottom-text img{
+  margin: 0px 5px 0px 5px;
+}
+/*end of footer*/
