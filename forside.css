@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*start of tertiary 2 button*/
+.tertiary2 {
+  background-color: transparent;
+  border: none;
+  color: #6E6AE3;
+  cursor: pointer;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tertiary2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+
+.tertiary2 span:after {
+  content: url(img/right-arrow.svg);
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tertiary2:hover span {
+  padding-right: 40px;
+}
+
+.tertiary2:hover span:after {
+  opacity: 1;
+  right: 0;
+  padding: 0px 0px 0px 10px;
+}
+/*end of tertiary 2 button*/
+
+
+/*Start of facility*/
+
+.title {
+  padding: 100px 40px 0px 180px;
+
+/*Start of facility icons*/
+}
+.column {
+  color: #6E6AE3;
+  column-gap: 70px;
+  display: flex;
+  float: right;
+  flex-wrap: wrap;
+  padding: 100px 100px 100px 100px;
+  text-align: center;
+  }
+
+
+.facility-container {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.people-icon {
+  height: 70px;
+  width: 70px;
+}
+
+
+.shoppingbag-icon {
+  height: 70px;
+  width: 70px;
+}
+
+
+.building-icon {
+  height: 70px;
+  width: 70px;
+}
+
+
+.parking-icon {
+  height: 70px;
+  width: 70px;
+}
+
+
+
+/*Start of flowers*/
+.flower-top{
+  display: flex;
+  height: 200px;
+  padding: 0px 650px 0px 650px;
+  position: absolute;
+  width: 200px;
+}
+
+
+.flower-down{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  padding: 55px 0px 55px 0px;
+  position: fixed;
+}
+/*End of flowers*/
