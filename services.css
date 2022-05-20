@@ -7,6 +7,13 @@
 
   /*start of standard text*/
 
+  h2{
+    color: #1D1D1D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
   h3{
     color: #1D1D1D;
     font-family: 'Heebo', sans-serif;
@@ -136,15 +143,6 @@ nav img{
 
 /*start of subheader*/
 
-.text-header-container {
-    left: 50%;
-    padding-bottom: 280px;
-    position: relative;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .header-bar {
     background-color: #ffffff;
     border-top-left-radius: 34px;
@@ -155,13 +153,28 @@ nav img{
     width: 100%;
 }
 
+.header-container {
+  max-height: 300px;
+}
+
 .header-image {
     max-width: 100%;
     height: auto;
 }
-.header-container {
-  max-height: 300px;
+
+.subheader-img {
+color: #E48585;
 }
+
+.text-header-container {
+  left: 50%;
+  padding-bottom: 280px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /*end of subheader*/
 
@@ -228,6 +241,145 @@ nav img{
 
 /*end of services cards*/
 
+/*start of catering info*/
+.catering-info {
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  margin-top: 70px;
+  padding: 20px;
+  text-align: center;
+  width: 240px;
+
+}
+.arrow-icon {
+ margin-top: 12px;
+}
+
+.catering-icon {
+  height: 80px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  width: auto;
+}
+
+.catering-info-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.readmore-container {
+  text-align: center;
+  padding-bottom: 80px;
+ }
+ 
+/*end of catering info*/
+
+/*start of menus*/
+.flowers1 {
+  height: 650px;
+  left: 50%;
+  margin-top: 35px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flowers2 {
+  height: 670px;
+  left: 30%;
+  margin-top: 35px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.food1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.food-image-container 
+  {
+  width: 50%;
+  height: 700px;
+}
+
+.menu1 {
+  display: flex;
+  flex-direction:row;
+  height: 700px;
+  width: 100%;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-icon {
+  height: auto;
+  width: 33px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.menu-icon2 {
+  height: auto;
+  width: 33px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+.menu-text-container 
+  {
+  height: 700px;
+  width: 50%;
+  text-align:center;
+}
+
+.menu-text-wrapper {
+  height: 700px;
+  margin-top: 35px;
+  position: absolute;
+  text-align: center;
+  transform: translate(25%, -100%);
+}
+
+.menu-text-wrapper2 {
+  height: 700px;
+  margin-top: 35px;
+  position: absolute;
+  text-align: center;
+  transform: translate(25%,-102%);
+}
+
+.menu-text-wrapper3 {
+  height: 700px;
+  margin-top: 35px;
+  position: absolute;
+  text-align: center;
+  transform: translate(33.5%, -100%);
+}
+
+.menu-top {
+  margin-bottom: 20px;
+}
+
+/*end of menus*/
+
+
 /*start of footer*/
 .gradient-line{
   background: linear-gradient(150deg, #F5A351 0%, #E48585 35%, #6E6AE3 100%);
@@ -265,7 +417,7 @@ footer{
 /*first column*/
 .footer-col1{
   padding-left: 140px;
-  width: 20%;
+  width: 30%;
 }
 
 /*secound column*/
