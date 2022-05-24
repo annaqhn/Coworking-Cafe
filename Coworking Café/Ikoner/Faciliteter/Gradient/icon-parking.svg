@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87.782" height="87.782" viewBox="0 0 87.782 87.782">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5a351"/>
+      <stop offset="0.389" stop-color="#d95252" stop-opacity="0.71"/>
+      <stop offset="1" stop-color="#6e6ae3"/>
+    </linearGradient>
+    <filter id="Icon_awesome-parking" x="0" y="0" width="87.782" height="87.782" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-parking)">
+    <path id="Icon_awesome-parking-2" data-name="Icon awesome-parking" d="M62.305,2.25H7.477A7.479,7.479,0,0,0,0,9.727V64.556a7.479,7.479,0,0,0,7.477,7.477H62.305a7.479,7.479,0,0,0,7.477-7.477V9.727A7.479,7.479,0,0,0,62.305,2.25ZM37.383,47.11H29.907v7.477a2.5,2.5,0,0,1-2.492,2.492H22.43a2.5,2.5,0,0,1-2.492-2.492V19.7A2.5,2.5,0,0,1,22.43,17.2H37.383a14.953,14.953,0,0,1,0,29.907Zm0-19.938H29.907v9.969h7.477a4.984,4.984,0,0,0,0-9.969Z" transform="translate(9 3.75)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

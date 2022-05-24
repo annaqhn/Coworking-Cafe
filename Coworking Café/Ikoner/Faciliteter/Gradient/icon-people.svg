@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125.013" height="86.099" viewBox="0 0 125.013 86.099">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5a351"/>
+      <stop offset="0.389" stop-color="#d95252" stop-opacity="0.71"/>
+      <stop offset="1" stop-color="#6e6ae3"/>
+    </linearGradient>
+    <filter id="Icon_material-people" x="0" y="0" width="125.013" height="86.099" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_material-people)">
+    <path id="Icon_material-people-2" data-name="Icon material-people" d="M74.463,36.685A14.593,14.593,0,1,0,59.87,22.093,14.532,14.532,0,0,0,74.463,36.685Zm-38.914,0A14.593,14.593,0,1,0,20.957,22.093,14.532,14.532,0,0,0,35.549,36.685Zm0,9.728C24.216,46.414,1.5,52.1,1.5,63.438V75.6H69.6V63.438C69.6,52.1,46.883,46.414,35.549,46.414Zm38.914,0c-1.411,0-3.016.1-4.718.243,5.642,4.086,9.582,9.583,9.582,16.782V75.6h29.185V63.438C108.513,52.1,85.8,46.414,74.463,46.414Z" transform="translate(7.5 -1.5)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
