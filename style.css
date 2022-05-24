@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 h1{
   font-family: 'Heebo', sans-serif;
@@ -166,6 +167,13 @@ p {
 
 /*start global code*/
 /*start navigation*/
+@media only screen and (max-width:1400px) {
+  .nav-links{
+    display: none;
+  }
+}
+
+
 nav{
   background-color: transparent;
   border-bottom: 1px solid #FFFFFF;
@@ -258,7 +266,7 @@ nav img{
   border-top-right-radius: 34px;
   height: 100px;
   position: absolute;
-  top: 340px;
+  top: 36%;
   width: 100%;
 }
 
@@ -410,8 +418,8 @@ body, html {
 .hero-overlay{
   background: rgba(35, 41, 41, 0.5);
   color: #FFFFFF;
-  height: auto;
-  padding: 260px 140px 200px 140px;
+  height: 65%;
+  padding: 260px 140px 0px 140px;
   position: absolute;
   text-shadow: rgba(35, 41, 41, 0.2);
   width: auto;
@@ -423,6 +431,12 @@ body, html {
 
 
 /*scroll down*/
+@media only screen and (max-width: 1500px) {
+  .hero-readmore-container {
+    display: none;
+   }
+}
+
 .hero-readmore-container {
   color: #FFFFFF;
   left: 0;
@@ -430,7 +444,7 @@ body, html {
   position: absolute;
   right: 0;
   text-align: center;
-  top: 750px;
+  top: 78%;
   z-index: 9999;
  }
 
@@ -444,12 +458,12 @@ body, html {
 
 /*start of service section*/
 .header-bar{
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-top-left-radius: 34px;
   border-top-right-radius: 34px;
   height: 100px;
   position: absolute;
-  top: 840px;
+  top: 90%;
   width: 100%;
 }
 
@@ -604,6 +618,7 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 
 .map-section button{
@@ -618,7 +633,6 @@ body, html {
 
 .google-maps{
   float: right;
-  height: auto;
   width: 50%;
 }
 /*end of map section*/
@@ -646,7 +660,7 @@ body, html {
 .cafe-text-container {
   margin-left: 140px;
   margin-top: 70px;
-  width: 675px;
+  width: 40%;
   }
 
 .facility-container2 {
@@ -870,17 +884,16 @@ body, html {
   flex-direction: column;
   height: 330px;
   margin-top: 70px;
+  margin: 70px 20px 0px 20px;
   padding: 20px;
   width: 240px;
 
 }
 .services-container {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 100px 50px 100px;
 }
 
 /*start of service icons styling*/
