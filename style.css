@@ -168,9 +168,9 @@ p {
 /*start global code*/
 /*start navigation*/
 @media only screen and (max-width:1400px) {
-  .nav-links{
+  /*.nav-links{
     display: none;
-  }
+  }*/
 }
 
 
@@ -240,6 +240,17 @@ nav img{
 
 
 /*Start of subheader*/
+@media only screen and (max-height: 850px) {
+  .subheader-bar{
+    margin-top: 10%;
+  }
+
+  .subheader-img{
+    padding-bottom: 10%;
+  }
+
+}
+
 .subheader-img {
   background-image: linear-gradient(150deg, rgba(245, 163, 81, 0.4), rgba(217, 82, 82, 0.4), rgba(110, 106, 227, 0.4)), url("img/hero-image.jpg");
   background-position: center;
@@ -418,17 +429,20 @@ body, html {
 .hero-overlay{
   background: rgba(35, 41, 41, 0.5);
   color: #FFFFFF;
-  height: 65%;
-  padding: 260px 140px 0px 140px;
+  height: 99%;
+  padding: 0px 140px 0px 140px;
   position: absolute;
   text-shadow: rgba(35, 41, 41, 0.2);
-  width: auto;
+  width: 30%;
 }
 
 .hero-overlay button{
   margin: 50px 35px 0px 0px;
 }
 
+.hero-overlay-text{
+  padding-top: 180px;
+}
 
 /*scroll down*/
 @media only screen and (max-width: 1500px) {
@@ -658,8 +672,7 @@ body, html {
 }
 
 .cafe-text-container {
-  margin-left: 140px;
-  margin-top: 70px;
+  margin: 70px 70px 0px 140px;
   width: 40%;
   }
 
@@ -670,7 +683,7 @@ body, html {
   float: left;
   height: 250px;
   justify-content: space-between;
-  margin: 90px 140px 0px 0px;
+  margin: 70px 140px 0px 0px;
   padding-left: 100px;
   width: 30%;
  }
@@ -869,6 +882,22 @@ body, html {
 
 
 /*start of services cards*/
+@media only screen and (max-width: 1770px) {
+  .services-container{
+    margin: 0px 300px 50px 300px !important;
+
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .services-container{
+    margin: 0px 100px 50px 100px !important;
+
+  }
+}
+
+
+
 .button-container {
  text-align: center;
  padding-bottom: 80px;
@@ -884,7 +913,7 @@ body, html {
   flex-direction: column;
   height: 330px;
   margin-top: 70px;
-  margin: 70px 20px 0px 20px;
+  margin: 70px 15px 0px 15px;
   padding: 20px;
   width: 240px;
 
