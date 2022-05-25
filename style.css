@@ -7,31 +7,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 h1{
   font-family: 'Heebo', sans-serif;
-  font-size: 68px;
+  font-size: 4.43vw;
   font-weight: 700;
 }
 
 h2{
   font-family: 'Heebo', sans-serif;
-  font-size: 48px;
+  font-size: 3.1vw;
   font-weight: 700;
 }
 
 h3{
   font-family: 'Heebo', sans-serif;
-  font-size: 32px;
+  font-size: 2.1vw;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 h4{
   font-family: 'Heebo', sans-serif;
-  font-size: 22px;
+  font-size: 1.44vw;
   font-weight: 700;
 }
 
 h5{
   font-family: 'Heebo', sans-serif;
-  font-size: 22px;
+  font-size: 1.44vw;
   font-weight: 400;
 }
 
@@ -256,8 +257,7 @@ nav img{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 40%;
+  height: 21%;
   margin: 0;
   position: relative;
 }
@@ -265,26 +265,22 @@ nav img{
 .subheader-overlay{
   color: #FFFFFF;
   height: auto;
-  padding: 150px 0px 70px 0px;
+  padding: 125px 0px 70px 00px;
   position: absolute;
   text-align: center;
   width: 100%;
 }
 
 .subheader-bar{
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-top-left-radius: 34px;
   border-top-right-radius: 34px;
-  height: 100px;
+  height: 50px;
   position: absolute;
-  top: 36%;
+  top: 16%;
   width: 100%;
 }
 
-.section-title{
-  margin: 0px 0px 100px 0px;
-  text-align: center;
-}
   /*end of subheader*/
 
 
@@ -429,19 +425,20 @@ body, html {
 .hero-overlay{
   background: rgba(35, 41, 41, 0.5);
   color: #FFFFFF;
-  height: 99%;
-  padding: 0px 140px 0px 140px;
+  height: 80%;
+  padding: 140px 140px 0px 140px;
   position: absolute;
   text-shadow: rgba(35, 41, 41, 0.2);
-  width: 30%;
+  width: 38%;
 }
 
 .hero-overlay button{
   margin: 50px 35px 0px 0px;
 }
 
-.hero-overlay-text{
-  padding-top: 180px;
+#intro-container {
+  max-height: 95px;
+  width: 450px;
 }
 
 /*scroll down*/
@@ -482,7 +479,7 @@ body, html {
 }
 
 .section-title{
-  margin: 100px 0px 100px 0px;
+  margin: 20px 0px 50px 0px;
   text-align: center;
 }
 
@@ -676,6 +673,10 @@ body, html {
   width: 40%;
   }
 
+#cafe-textbox {
+  margin-top: 15px;
+}
+
 .facility-container2 {
   border-left: #D3D4D4 solid 1px;
   display: flex;
@@ -761,6 +762,7 @@ body, html {
   display: block;
   height: 700px;
   text-align: center;
+  width: 100%;
 }
 
 /*start of image gallery*/
@@ -778,12 +780,14 @@ body, html {
   display: flex;
   flex-direction: column;
   height: 600px;
-  width: auto;
+  width: 100%;
 }
 
 .images-container-mini2 {
   display: flex;
   flex-direction: row;
+  height: 255px;
+  width: 100%;
 }
 
 .img1 {
@@ -804,7 +808,7 @@ body, html {
   border: solid 10px #FFFFFF;
   height: 255px;
   object-fit: fill;
-  width: auto;
+  width: 100%;
 }
 
 .img4 {
@@ -911,11 +915,10 @@ body, html {
   box-shadow: 0px 3px 6px #D6D6D6;
   display: flex;
   flex-direction: column;
-  height: 330px;
-  margin-top: 70px;
-  margin: 70px 15px 0px 15px;
+  height: 300px;
+  margin: 30px 15px 0px 15px;
   padding: 20px;
-  width: 240px;
+  width: 210px;
 
 }
 .services-container {
@@ -1010,6 +1013,11 @@ body, html {
 /*end of catering info*/
 
 /*start of menus*/
+.flower-container {
+    width: 50%;
+  height: 700px;
+}
+
 .flowers1 {
   height: 650px;
   left: 50%;
@@ -1018,6 +1026,7 @@ body, html {
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .flowers2 {
@@ -1027,7 +1036,8 @@ body, html {
   position: relative;
   text-align: center;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -50%);
+  width: 100%;
 }
 
 .food1 {
@@ -1036,8 +1046,7 @@ body, html {
   object-fit: cover;
 }
 
-.food-image-container
-  {
+.food-image-container {
   width: 50%;
   height: 700px;
 }
@@ -1049,7 +1058,7 @@ body, html {
   width: 100%;
 }
 
-.menu-container {
+#menu-container {
   display: flex;
   flex-direction: column;
 }
@@ -1068,7 +1077,6 @@ body, html {
   padding-top: 15px;
 }
 
-
 .menu-text-container
   {
   height: 700px;
@@ -1077,27 +1085,33 @@ body, html {
 }
 
 .menu-text-wrapper {
+  flex-wrap: wrap;
   height: 700px;
-  margin-top: 35px;
+  margin: 35px 30px 0px 30px;
   position: absolute;
   text-align: center;
-  transform: translate(25%, -100%);
+  transform: translate(0%, -100%);
+  width: 45%;
 }
 
 .menu-text-wrapper2 {
+  flex-wrap: wrap;
   height: 700px;
-  margin-top: 35px;
+  margin: 35px 30px 0px 30px;
   position: absolute;
   text-align: center;
-  transform: translate(25%,-102%);
+  transform: translate(0%,-102%);
+  width: 45%;
 }
 
 .menu-text-wrapper3 {
+  flex-wrap: wrap;
   height: 700px;
   margin-top: 35px;
   position: absolute;
   text-align: center;
-  transform: translate(33.5%, -100%);
+  transform: translate(0%, -100%);
+  width: 50%;
 }
 
 .menu-top {
@@ -1269,7 +1283,7 @@ ul.cross li{
 .contact-text{
   color: #FFFFFF;
   font-family: 'Heebo', sans-serif;
-  font-size: 32px;
+  font-size: 2.1vw;
   font-weight: 500;
 }
 /*end of styled text*/
@@ -1315,8 +1329,8 @@ ul.cross li{
 
 .contact-img  {
   height: 700px;
-  object-fit: contain;
-  width: auto;
+  object-fit: cover;
+  width: 100%;
 }
 
 .contact-image-container {
@@ -1331,22 +1345,32 @@ ul.cross li{
 .contact-info-container {
   display: flex;
   flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px  ;
   position: absolute;
   text-align: center;
 }
 
-.contact-icon {
-  height: auto;
+.contact-icon-container {
   width: 50px;
+  height: 50px;
+}
+
+.contact-icon {
+  height: 50px;
+  object-fit: contain;
+  width: 100%;
+
 }
 
 .contact-icon2 {
-  height: auto;
+  padding-top: 7px;
+  height: 100%;
   width: 50px;
 }
 
 .contact-icon3 {
-  height: auto;
+  height: 100%;
   width: 45px;
 }
 .contact-subtitles {
